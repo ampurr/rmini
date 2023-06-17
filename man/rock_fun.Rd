@@ -16,10 +16,8 @@ The last vector of letters.
 Nothing fancy.
 }
 \examples{
-library(rmini)
-rock_fun()
-rock_fun(50)
-# you can call unexported functions with ::: but it is not recommended because
-# package authors may not want you to go into their backyards
-rmini:::add_one(c("a", "b", "c"))
+library(rmini); rock_fun(); rock_fun(50)
+# you can call unexported functions with ::: but it is not recommended
+# because package authors may not want you to go into their backyards
+rmini:::add_one(c('a', 'b', 'c'))
 }

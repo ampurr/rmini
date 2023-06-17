@@ -23,6 +23,6 @@ Say hello on difference classes.
 }
 \examples{
 hello(1)
-hello("a")
-hello(structure(1, class = "world"))
+hello('a')
+hello(structure(1, class = 'world'))
 }

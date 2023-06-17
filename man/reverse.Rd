@@ -17,8 +17,7 @@ This function takes a numeric vector and returns a reversed version of this
 vector. The internal computation is via C.
 }
 \examples{
-reverse(c(1, 9.3, 8.2, 4.33))
-reverse(1:10)
+reverse(c(1, 9.3, 8.2, 4.33)); reverse(1:10)
 }
 \author{
 Yihui Xie <\url{http://yihui.name}>

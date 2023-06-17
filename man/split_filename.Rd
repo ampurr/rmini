@@ -23,7 +23,7 @@ Anything else after the description goes to the Details section.
 You can write several paragraphs.
 }
 \examples{
-split_filename("foo.bar")
+split_filename('foo.bar')
 }
 \references{
 \url{https://github.com/yihui/rmini}

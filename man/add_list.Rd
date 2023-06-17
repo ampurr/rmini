@@ -18,14 +18,13 @@ A list with \code{y} being added to \code{x} as its last element.
 This is an S3 generic function for \code{+} with the class \code{Foo}.
 }
 \examples{
-structure(list(1), class = "Foo") + 2
+structure(list(1), class='Foo') + 2
 
-z = list("a")
-class(z) = "Foo"
-z + letters
-z + 5 + matrix(1:4, 2)  # you can add arbitrary objects to z
+z = list('a'); class(z) = 'Foo'
+z+letters
+z+5+matrix(1:4,2) # you can add arbitrary objects to z
 
-methods("+")  # check the methods on +
+methods('+') # check the methods on +
 }
 \author{
 Yihui Xie <\url{http://yihui.name}>
